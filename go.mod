@@ -3,6 +3,7 @@ module go_test_project
 go 1.15
 
 require (
+	github.com/HdrHistogram/hdrhistogram-go v1.1.0 // indirect
 	github.com/Shopify/sarama v1.19.0
 	github.com/Shopify/toxiproxy v2.1.4+incompatible // indirect
 	github.com/coreos/etcd v3.3.13+incompatible
@@ -26,9 +27,12 @@ require (
 	github.com/mbobakov/grpc-consul-resolver v1.4.3
 	github.com/nacos-group/nacos-sdk-go v1.0.7
 	github.com/olivere/elastic v6.2.35+incompatible
+	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/pierrec/lz4 v2.6.0+incompatible // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/spf13/viper v1.7.1
+	github.com/uber/jaeger-client-go v2.26.0+incompatible
+	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	go.uber.org/zap v1.16.0
 	google.golang.org/grpc v1.27.1
 	google.golang.org/protobuf v1.25.0

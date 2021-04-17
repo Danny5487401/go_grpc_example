@@ -20,6 +20,7 @@ require (
 	github.com/go-playground/validator/v10 v10.2.0
 	github.com/golang/protobuf v1.4.3
 	github.com/golang/snappy v0.0.3 // indirect
+	github.com/grpc-ecosystem/grpc-opentracing v0.0.0-20180507213350-8e809c8a8645
 	github.com/hashicorp/consul/api v1.3.0
 	github.com/hpcloud/tail v1.0.0
 	github.com/jinzhu/gorm v1.9.16
@@ -27,13 +28,15 @@ require (
 	github.com/mbobakov/grpc-consul-resolver v1.4.3
 	github.com/nacos-group/nacos-sdk-go v1.0.7
 	github.com/olivere/elastic v6.2.35+incompatible
-	github.com/opentracing/opentracing-go v1.2.0 // indirect
+	github.com/opentracing/opentracing-go v1.2.0
 	github.com/pierrec/lz4 v2.6.0+incompatible // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/spf13/viper v1.7.1
+	github.com/stretchr/testify v1.7.0
 	github.com/uber/jaeger-client-go v2.26.0+incompatible
 	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	go.uber.org/zap v1.16.0
+	golang.org/x/net v0.0.0-20200324143707-d3edc9973b7e
 	google.golang.org/grpc v1.27.1
 	google.golang.org/protobuf v1.25.0
 	gopkg.in/fsnotify.v1 v1.4.7 // indirect
